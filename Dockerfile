@@ -1,6 +1,4 @@
-# Т.к. основным инструментом для сборки Android-проектов является Gradle, 
-# и по счастливому стечению обстоятельств есть официальный Docker-образ 
-# мы решили за основу взять именно его с нужной нам версией Gradle
+
 FROM gradle:5.4.1-jdk8
 
 # Задаем переменные с локальной папкой для Android SDK и 
@@ -18,10 +16,7 @@ RUN mkdir "$ANDROID_HOME" .android \
     && unzip sdk.zip \
     && rm sdk.zip \
 # В следующих строчках мы создаем папку и текстовые файлы 
-# с лицензиями. На оф. сайте Android написано что мы 
-# можем копировать эти файлы с машин где вручную эти 
-# лицензии подтвердили и что автоматически 
-# их сгенерировать нельзя
+# с лицензиями. 
     && mkdir "$ANDROID_HOME/licenses" || true \
     && echo "24333f8a63b6825ea9c5514f83c2829b004d1" > "$ANDROID_HOME/licenses/android-sdk-license" \
     && echo "84831b9409646a918e30573bab4c9c91346d8" > "$ANDROID_HOME/licenses/android-sdk-preview-license"    
