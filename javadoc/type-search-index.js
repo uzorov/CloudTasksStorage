@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"mirea.it.cloudtasksstorage","l":"BuildConfig"},{"p":"mirea.it.cloudtasksstorage","l":"EmailPasswordActivity"},{"p":"mirea.it.cloudtasksstorage","l":"ListTasks"}]
