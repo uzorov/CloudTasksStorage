@@ -1,4 +1,5 @@
 # CloudTasksStorage
+![image](https://user-images.githubusercontent.com/90005421/170552962-3bcd3390-32b1-4fcd-bbbe-3ab98076d013.png)
 
 Итоговый проект по ТРПП.
 
