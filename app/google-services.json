@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "202163726481",
+    "firebase_url": "https://cloudtaskstorage-default-rtdb.firebaseio.com",
+    "project_id": "cloudtaskstorage",
+    "storage_bucket": "cloudtaskstorage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202163726481:android:b185a1291f7312cf6eb730",
+        "android_client_info": {
+          "package_name": "mirea.it.cloudtasksstorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202163726481-m7tmkjmvortuiorfi5ud6v03ffi0rrco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ-ZX-tgn8ko5QefhzR90Bv6-MeIvIXnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202163726481-m7tmkjmvortuiorfi5ud6v03ffi0rrco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
